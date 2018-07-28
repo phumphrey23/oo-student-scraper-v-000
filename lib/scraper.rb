@@ -22,6 +22,7 @@ class Scraper
         student[:github] = link
       else
         student[:blog] = link
+      end
   end
 
 end
