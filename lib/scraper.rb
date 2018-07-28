@@ -23,6 +23,7 @@ class Scraper
       else
         student[:blog] = link
       end
+      student[:profile_quote] = profile_page.css(".profile-quote").text if profile_page.css(".profile-quote")
   end
 
 end
